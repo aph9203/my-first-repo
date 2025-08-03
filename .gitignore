@@ -1,0 +1,9 @@
+# the .gitignore file specifies the name(s) of other files that we don't want to track in version control
+
+# cached or clutte file (actual file name that pop up)
+# eg _pycashe_
+# .DS_Store
+
+# it will become greyed out in the menu on the side
+
+# secret credentials:
