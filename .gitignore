@@ -6,6 +6,6 @@
 
 # it will become greyed out in the menu on the side
 
-_pycache_
+__pycache__
 
 # secret credentials:
