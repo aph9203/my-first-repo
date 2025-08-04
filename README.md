@@ -1,18 +1,36 @@
 # my-first-repo
+## Setup
 
-This is the first line on the GitHub online interface, learning to edit the file.
+Create and activate a virtual environment:
 
-This is the README.md file. It uses the markdown language.
+```sh
+conda create -n my-first-repo-env python=3.11
 
-Here is a list:
+conda activate my-first-repo-env
+```
 
-  + Item 1
-  + Item 2
-  + Item 3
+Install packages:
 
-For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+```sh
+#pip install pytest
 
-More updates.
+pip install -r requirements.txt
+```
 
-This is a new feature.
-ANother change.
+
+## Usage
+
+Play a game of rock, paper, scissors:
+
+```sh
+python app/rps.py
+```
+
+## Tests
+
+Run the tests:
+
+```sh
+# find all the tests and run them:
+pytest
+```
