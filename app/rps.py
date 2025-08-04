@@ -1,5 +1,4 @@
 # This is the rock paper siccors game
-
 import random
 
 VALID_OPTIONS = ["rock", "paper", "scissors"]
@@ -38,4 +37,3 @@ if __name__ == "__main__":
 
     result_message = determine_winner(player_choice, computer_choice)
     print(result_message)
-
