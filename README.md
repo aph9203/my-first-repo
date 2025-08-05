@@ -23,8 +23,23 @@ pip install -r requirements.txt
 Play a game of rock, paper, scissors:
 
 ```sh
-python app/rps.py
+#python app/rps.py
+python -m app.rps
 ```
+
+### Web App
+
+Run the web app:
+
+```sh
+FLASK_APP = web_app flask run
+```
+
+Visit in the browser, either:
+
+  + http://127.0.0.1:5000
+  + http://localhost:5000/
+
 
 ## Tests
 

@@ -1,9 +1,11 @@
 #requirements for testing
 #requirements for any other packages here
 
+#packages used in this app:
+
+flask
+
 
 # packages used for testing
 
-
 pytest
-
